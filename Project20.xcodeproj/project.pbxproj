@@ -15,6 +15,13 @@
 		05A397001F3B1A740085A918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A396FE1F3B1A740085A918 /* Main.storyboard */; };
 		05A397021F3B1A740085A918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A397011F3B1A740085A918 /* Assets.xcassets */; };
 		05A397051F3B1A740085A918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A397031F3B1A740085A918 /* LaunchScreen.storyboard */; };
+		05A397141F3B25E60085A918 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A3970D1F3B25E60085A918 /* background.png */; };
+		05A397151F3B25E60085A918 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A3970E1F3B25E60085A918 /* background@2x.png */; };
+		05A397161F3B25E60085A918 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 05A3970F1F3B25E60085A918 /* explode.sks */; };
+		05A397171F3B25E60085A918 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 05A397101F3B25E60085A918 /* fuse.sks */; };
+		05A397181F3B25E60085A918 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A397111F3B25E60085A918 /* rocket.png */; };
+		05A397191F3B25E60085A918 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A397121F3B25E60085A918 /* rocket@2x.png */; };
+		05A3971A1F3B25E60085A918 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A397131F3B25E60085A918 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		05A397011F3B1A740085A918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A397041F3B1A740085A918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A397061F3B1A740085A918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A3970D1F3B25E60085A918 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		05A3970E1F3B25E60085A918 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		05A3970F1F3B25E60085A918 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		05A397101F3B25E60085A918 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		05A397111F3B25E60085A918 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		05A397121F3B25E60085A918 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
+		05A397131F3B25E60085A918 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +83,23 @@
 				05A397011F3B1A740085A918 /* Assets.xcassets */,
 				05A397031F3B1A740085A918 /* LaunchScreen.storyboard */,
 				05A397061F3B1A740085A918 /* Info.plist */,
+				05A3970C1F3B25E60085A918 /* Content */,
 			);
 			path = Project20;
+			sourceTree = "<group>";
+		};
+		05A3970C1F3B25E60085A918 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				05A3970D1F3B25E60085A918 /* background.png */,
+				05A3970E1F3B25E60085A918 /* background@2x.png */,
+				05A3970F1F3B25E60085A918 /* explode.sks */,
+				05A397101F3B25E60085A918 /* fuse.sks */,
+				05A397111F3B25E60085A918 /* rocket.png */,
+				05A397121F3B25E60085A918 /* rocket@2x.png */,
+				05A397131F3B25E60085A918 /* spark.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +162,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A397191F3B25E60085A918 /* rocket@2x.png in Resources */,
+				05A3971A1F3B25E60085A918 /* spark.png in Resources */,
 				05A397001F3B1A740085A918 /* Main.storyboard in Resources */,
+				05A397181F3B25E60085A918 /* rocket.png in Resources */,
+				05A397141F3B25E60085A918 /* background.png in Resources */,
+				05A397171F3B25E60085A918 /* fuse.sks in Resources */,
 				05A396F71F3B1A740085A918 /* GameScene.sks in Resources */,
+				05A397161F3B25E60085A918 /* explode.sks in Resources */,
+				05A397151F3B25E60085A918 /* background@2x.png in Resources */,
 				05A397021F3B1A740085A918 /* Assets.xcassets in Resources */,
 				05A397051F3B1A740085A918 /* LaunchScreen.storyboard in Resources */,
 				05A396F91F3B1A740085A918 /* Actions.sks in Resources */,
